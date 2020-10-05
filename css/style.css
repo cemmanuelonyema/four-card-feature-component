@@ -1,0 +1,118 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+
+}
+
+body{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 98%);
+    ;
+
+}
+
+header{
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+h1,h3{
+    color: hsl(234, 12%, 34%);
+}
+
+
+.h1-main{
+    display: block;
+    font-weight: 200;
+    
+}
+
+.h1-sub{
+  display: block;
+  font-weight: 600;
+}
+
+
+p{
+   color:  hsl(229, 6%, 66%);
+   margin: 20px 0 50px;
+   font-size: 15px;
+
+}
+
+.container{
+   max-width: 1140px;
+   margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: #fff;
+    flex-basis: 350px;
+    padding: 30px;
+    margin: 15px;
+    
+    /*
+    box-shadow: 0 10px 20px rgba( 0, 0, 0, .2), 0 6px 6px rgba(0,0,0, .25);
+    box-shadow: 0 10px 20px hsla(229, 6%, 66%, 0.6), 0 6px 6px hsla(229, 6%, 66%, 0.65);
+    box-shadow: 2px 8px 14px 0px hsla(234, 12%, 34%, 0.6);
+    */
+    box-shadow: 2px 8px 14px 0px hsla(229, 6%, 66%, 0.6);
+    border-radius: 10px;
+
+
+}
+
+.box img{
+    display: block;
+    margin-left: auto;
+}
+.box-cyan{
+    border-top: 3px solid hsl(180, 62%, 55%);
+}
+
+.box-orange{
+    border-top: 3px solid hsl(34, 97%, 64%);
+    
+}
+
+.box-red{
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+.box-blue{
+   border-top: 3px solid hsl(212, 86%, 64%)
+
+}
+.div{
+    flex-basis: 380px;
+}
+
+
+footer{
+    text-align: center;
+}
+footer a{
+    color: rgb(177, 177, 177);
+}
+
+@media only screen and (max-width: 768px) {
+     .container{
+         flex-direction: row;
+     }
+     h1{
+         font-size: 30px;
+     }
+
+     
+    
+    
+}
